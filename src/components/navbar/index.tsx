@@ -1,6 +1,7 @@
 'use client'
 
-import {ShoppingCart, CircleUserRound} from "lucide-react"
+import {ShoppingCart, CircleUserRound, AlignJustify, Icon} from "lucide-react"
+import { Span } from "next/dist/trace";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -58,9 +59,36 @@ export default function Header(){
                         );
                     })}
                 </div>
+                {/*menu hamburger */}
+                <button className="md:hidden text-white" onClick={toggleNav}>
+                    <AlignJustify size={40}/>
+                </button>
             </nav>
             </div>
 
+            {/*Menu Hamburger Aberto */}
+            {isNavOpen && (
+                <div className="md:hidden flex flex-col items-center justify-center mt-4 gap-4">
+                    {links1.map((link, index) => (
+                        <Link href={link.href} key={index} className="flex justify-center w-full text-center text-white px-4 py-2 rounded-x1 hover:bg-gray-700">
+                        <span className="text-lg">
+                            {link.label}
+                        </span>
+                        </Link>
+                    ))}
+                    <div className="flex gap-4 mt-2 justify-center">
+                        {links2.map((link, index) =>{
+                            const Icon = link.icone;
+                            return(
+                                <Link href={link.href} key={index} className="flex items-center gap-1 text-white px-4 py-2 rounded-x1 hover:bg-gray-700">
+                                    {Icon && <Icon size={35}/>}
+                                    {link.label && <span>{link.label}</span>}
+                                </Link>
+                            )
+                        })}
+                    </div>
+                </div>
+            )}
         </header>
     )
 }
