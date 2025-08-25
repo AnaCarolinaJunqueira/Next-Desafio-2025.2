@@ -24,6 +24,8 @@ export default function Header(){
     const toggleNav = () => setIsNavOpen(!isNavOpen)
     return(
         <header className="bg-darker-midnight-blue stcky top-0 z-20 mx-auto w-full py-4 px-6 md:p-0 mb-8">
+
+            <nav className="flex items-center justify-between w-full md:w-11/12 mx-auto">
             <div className="flex items-center justify-between w-full md:w-11/12 mx-auto">
             {/*Logo*/}
             <Link href="/" className="flex gap-4 items-center">
@@ -36,8 +38,6 @@ export default function Header(){
                 />
                 <span className="text-white hidden md:block text-[20px] font-semibold">Covil das Cartas</span>
             </Link>
-
-            <nav className="flex items-center justify-between w-full md:w-11/12 mx-auto">
                 {/*Links do meio */}
                 <div className="flex-1 hidden justify-center gap-8 md:flex">
                     {links1.map((link, index) =>
@@ -63,8 +63,8 @@ export default function Header(){
                 <button className="md:hidden text-white" onClick={toggleNav}>
                     <AlignJustify size={40}/>
                 </button>
+                </div>
             </nav>
-            </div>
 
             {/*Menu Hamburger Aberto */}
             {isNavOpen && (
