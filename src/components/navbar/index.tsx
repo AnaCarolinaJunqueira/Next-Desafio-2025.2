@@ -26,7 +26,7 @@ export default function Header(){
         <header className="bg-darker-midnight-blue stcky top-0 z-20 mx-auto w-full py-4 px-6 md:p-0 mb-8">
 
             <nav className="flex items-center justify-between w-full md:w-11/12 mx-auto">
-            <div className="flex items-center justify-between w-full md:w-11/12 mx-auto">
+            <div className="flex items-center justify-between w-full">
             {/*Logo*/}
             <Link href="/" className="flex gap-4 items-center">
                 <Image
@@ -39,10 +39,10 @@ export default function Header(){
                 <span className="text-white hidden md:block text-[20px] font-semibold">Covil das Cartas</span>
             </Link>
                 {/*Links do meio */}
-                <div className="flex-1 hidden justify-center gap-8 md:flex">
+                <div className="flex-1 hidden px-50 gap-10 md:flex">
                     {links1.map((link, index) =>
                     <Link href={link.href} key={index}>
-                    <span className="text-3x1 text-white hover:bg-white/20 p-2 rounded-x1">{link.label}</span>
+                    <span className="text-lg text-white hover:bg-white/20 p-2 rounded-x1">{link.label}</span>
                     </Link>
                     )}
                 </div>
@@ -53,7 +53,7 @@ export default function Header(){
                         const Icon = link.icone;
                         return(
                         <Link className="flex items-center gap-1" href={link.href} key={index}>
-                            {Icon && <Icon size={24} className="text-white"/>}
+                            {Icon && <Icon size={30} className="text-white"/>}
                             {link.label && <span className="text-white">{link.label}</span>}
                         </Link>
                         );
