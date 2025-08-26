@@ -23,7 +23,7 @@ export default function Header(){
 
     const toggleNav = () => setIsNavOpen(!isNavOpen)
     return(
-        <header className="bg-darker-midnight-blue stcky top-0 z-20 mx-auto w-full py-4 px-6 md:p-0 mb-8">
+        <header className="bg-darker-midnight-blue sticky top-0 z-20 mx-auto w-full py-4 px-6 md:p-0 mb-8">
 
             <nav className="flex items-center justify-between w-full md:w-11/12 mx-auto">
                 {/*Logo*/}
@@ -35,7 +35,7 @@ export default function Header(){
                     height={940}
                     className="h-30 w-30 rounded-xl"
                     />
-                    <span className="text-white hidden md:block text-[20px] font-semibold">Covil das Cartas</span>
+                    <span className="text-white hidden lg:block text-[20px] font-semibold">Covil das Cartas</span>
                 </Link>
                 {/*Links do meio */}
                 <div className="flex-1 hidden justify-center gap-8 md:flex">
