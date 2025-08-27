@@ -26,6 +26,7 @@ export default function Footer(){
                     <p className="text-white font-extralight underline">Política de Privacidade</p>
                 </div>
             </div>
+            {/*Redes Sociais*/}
             <div className="justify-center flex gap-2 pb-8 md:pr-10">
                 <Link href="/" className="cursor-pointer"><FaInstagram size={35} color="white"/></Link>
                 <Link href="/" className="cursor-pointer"><FaFacebook size={35} color="white"/></Link>
