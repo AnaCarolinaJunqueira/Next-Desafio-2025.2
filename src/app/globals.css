@@ -1,5 +1,8 @@
 @import "tailwindcss";
+<<<<<<< HEAD
 @import "tailwindcss";
+=======
+>>>>>>> main
 
 @theme{
     --breakpoint-sm: 350px;
@@ -10,5 +13,9 @@
     --breakpoint-2xl: 2560px;
     --breakpoint-3xl: 3440px;
 
+<<<<<<< HEAD
     --color-darker-blue: #101C2A;
+=======
+    --color-darker-midnight-blue: #0A1D3E;
+>>>>>>> main
 }
