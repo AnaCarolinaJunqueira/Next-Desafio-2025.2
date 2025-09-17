@@ -5,11 +5,11 @@ export default function HeroSection(){
                 <h1 className="text-4xl md:text-6xl font-bold mb-7">Qualidade, proteção e confiança em cada carta</h1>
                 <h2 className="text-lg font-light md:text-xl mb-20">Produtos bem cuidados, lacrados e protegidos - prontos para sua coleção ou seu deck competitivo. Enviamos cartas em português, inglês e japonês com total segurança.</h2>
             <div className="flex justify-center gap-20">
-                <button className="px-6 py-3 text-xl bg-blue-magenta hover:bg-darker-blue-magenta rounded-lg font-semibold shadow-lg lg:hidden">Ver Produtos</button>
-               <button className="hidden lg:inline-block px-6 py-3 text-2xl bg-blue-magenta hover:bg-darker-blue-magenta rounded-lg font-semibold shadow-lg">Yu-Gi-Oh!</button>
-               <button className="hidden lg:inline-block px-6 py-3 text-2xl bg-blue-magenta hover:bg-darker-blue-magenta rounded-lg font-semibold shadow-lg">Pokémon</button>
-               <button className="hidden lg:inline-block px-6 py-3 text-2xl bg-blue-magenta hover:bg-darker-blue-magenta rounded-lg font-semibold shadow-lg">Digimon</button>
-               <button className="hidden lg:inline-block px-6 py-3 text-2xl bg-blue-magenta hover:bg-darker-blue-magenta rounded-lg font-semibold shadow-lgs">Acessórios</button>
+                <button className="px-6 py-3 text-xl bg-blue-magenta hover:bg-darker-blue-magenta rounded-lg font-semibold shadow-lg lg:hidden btn-zoom">Ver Produtos</button>
+               <button className="hidden lg:inline-block px-6 py-3 text-2xl bg-blue-magenta hover:bg-darker-blue-magenta rounded-lg font-semibold shadow-lg btn-zoom">Yu-Gi-Oh!</button>
+               <button className="hidden lg:inline-block px-6 py-3 text-2xl bg-blue-magenta hover:bg-darker-blue-magenta rounded-lg font-semibold shadow-lg btn-zoom">Pokémon</button>
+               <button className="hidden lg:inline-block px-6 py-3 text-2xl bg-blue-magenta hover:bg-darker-blue-magenta rounded-lg font-semibold shadow-lg btn-zoom">Digimon</button>
+               <button className="hidden lg:inline-block px-6 py-3 text-2xl bg-blue-magenta hover:bg-darker-blue-magenta rounded-lg font-semibold shadow-lg btn-zoom">Acessórios</button>
             </div>
             </div>
         </div>

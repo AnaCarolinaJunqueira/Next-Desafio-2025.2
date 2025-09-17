@@ -15,6 +15,11 @@
     --color-darker-blue-magenta: #352A6D;
 }
 
-body{
-    margin: 0;
+/*animação de zoom para os botões*/
+.btn-zoom {
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn-zoom:hover {
+    transform: scale(1.05);
 }
