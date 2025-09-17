@@ -23,7 +23,7 @@ export default function Header(){
 
     const toggleNav = () => setIsNavOpen(!isNavOpen)
     return(
-        <header className="bg-darker-midnight-blue sticky top-0 z-20 mx-auto w-full py-4 px-6 md:p-0 mb-8">
+        <header className="bg-darker-midnight-blue sticky top-0 z-20 mx-auto w-full py-4 px-6 md:p-0">
 
             <nav className="flex items-center justify-between w-full md:w-11/12 mx-auto">
                 {/*Logo*/}

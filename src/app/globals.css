@@ -12,3 +12,7 @@
     --color-darker-blue: #101C2A;
     --color-darker-midnight-blue: #0A1D3E;
 }
+
+body{
+    margin: 0;
+}

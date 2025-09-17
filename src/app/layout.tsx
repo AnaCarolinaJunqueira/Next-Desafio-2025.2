@@ -24,9 +24,9 @@ export default function RootLayout({
     <html lang="pt-br">
       <body
         className={`${roboto.className}`}>
-          <Header/>
-          <Footer/>
+        <Header/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
