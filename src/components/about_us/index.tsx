@@ -4,9 +4,11 @@ import AboutUsCard from "./card"
 export default function AboutUs(){
     return(
         <div className="w-full space-y-12 ">
+            {/*Titulo da seção */}
             <div>
                 <Title title="Sobre Nós"/>
             </div>
+            {/*Cards */}
             <div className="flex flex-wrap gap-4 md:gap-20 justify-center space-y-12">
                 <AboutUsCard title="Missão" description="Oferecer cartas originais e bem cuidadas, garantindo a melhor experiência para colecionadores e duelistas em todo o Brasil."/>
                 <AboutUsCard title="Visão" description="Ser referência em qualidade e segurança na venda de cartas TCG em português, inglês e japonês."/>
