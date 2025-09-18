@@ -12,14 +12,20 @@
     --color-darker-blue: #101C2A;
     --color-darker-midnight-blue: #0A1D3E;
     --color-blue-magenta: #403382;
+    --color-opaque-blue: #273C60;
     --color-darker-blue-magenta: #352A6D;
+    --color-light-black: #3A3A3A;
 }
 
-/*animação de zoom para os botões*/
+/*animação de zoom*/
 .btn-zoom {
     transition: transform 0.3s ease-in-out;
 }
 
 .btn-zoom:hover {
     transform: scale(1.05);
+}
+
+body{
+    background-color: #EDEDED;
 }

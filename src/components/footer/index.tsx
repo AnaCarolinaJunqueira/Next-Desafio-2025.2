@@ -6,7 +6,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 
 export default function Footer(){
     return(
-        <footer className="bg-darker-blue sticky top-0 z-20 mx-auto w-full mb-8 flex flex-col items-center justify-between gap-y-4 md:flex-row md:items-center">
+        <footer className="bg-darker-blue sticky top-0 z-20 mx-auto w-full flex flex-col items-center justify-between gap-y-4 md:flex-row md:items-center">
             {/*Logo*/}
             <Link href="/" className="flex gap-4 items-center cursor-default">
                 <Image
