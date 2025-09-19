@@ -1,6 +1,7 @@
 import AboutUs from "../components/about_us";
 import HeroSection from "../components/hero_section";
 import Releases from "../components/releases";
+import WhyBuy from "../components/why_buy";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection/>
       <Releases/>
       <AboutUs/>
+      <WhyBuy/>
     </div>
   );
 }
