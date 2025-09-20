@@ -4,9 +4,9 @@ import Image from "next/image";
 export default function MainProductsCard(){
     return(
         <Link href={'/'} className="group">
-            <div className="flex group-hover:shadow-lg rounded-xl shadow-md p-4 bg-white transition flex-col items-center gap-2 w-72">
+            <div className="flex group-hover:shadow-xl rounded-xl shadow-md p-4 bg-white transition flex-col items-center gap-2 w-72">
                 {/*Imagem */}
-                <div className="relative w-64 h-52">
+                <div className="relative w-80 h-68">
                     <Image
                     src={'/home_page/placeholder/placeholder.jpg'}
                     alt="Placeholder"
@@ -15,7 +15,7 @@ export default function MainProductsCard(){
                     />
                 </div>
                 {/*Titulo*/}
-                <h2 className="text-center font-semibold text-light-black text-sm">Yu-Gi-Oh! Coleção Lendária Edição do 25° aniversário
+                <h2 className="text-center text-light-black text-lg">Yu-Gi-Oh! Coleção Lendária Edição do 25° aniversário
                 </h2>
 
                 {/*Preço*/}
