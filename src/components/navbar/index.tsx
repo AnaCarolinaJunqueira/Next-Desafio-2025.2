@@ -1,7 +1,6 @@
 'use client'
 
 import {ShoppingCart, CircleUserRound, AlignJustify, Icon} from "lucide-react"
-import { Span } from "next/dist/trace";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
