@@ -9,7 +9,7 @@ export default function MainProducts(){
                 <Title title="Principais Produtos"/>
             </div>
             {/*Cards*/}
-            <div className="grid grid-cols-1 md:grid-cols-2  bp-840:grid-cols-3 gap-x-8 gap-y-14 md:gap-y-20 justify-items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 bp-840:grid-cols-3 gap-x-1 gap-y-14 md:gap-y-20 justify-items-center">
             <MainProductsCard/>
             <MainProductsCard/>
             <MainProductsCard/>
